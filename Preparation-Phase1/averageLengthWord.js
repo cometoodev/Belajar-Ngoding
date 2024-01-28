@@ -25,19 +25,19 @@ output: ['dont', 'know', 'what', 'have', 'lose']
 
 function averageLengthWord(words) {
   //code here
-  const kumpulanKata = words.split(" ");
+  const kumpulanKata = words.split(' ');
 
   let jumlahHuruf = 0;
   const jumlahKata = kumpulanKata.length;
-  for (let i = 0; i < jumlahKata; i++) {
+  for(let i = 0; i < jumlahKata; i++) {
     jumlahHuruf += kumpulanKata[i].length;
   }
 
   const rata2 = Math.round(jumlahHuruf / jumlahKata);
-
+  
   const result = [];
-  for (let i = 0; i < kumpulanKata.length; i++) {
-    if (kumpulanKata[i].length == rata2) {
+  for(let i = 0; i < kumpulanKata.length; i++) {
+    if(kumpulanKata[i].length == rata2) {
       result.push(kumpulanKata[i]);
     }
   }

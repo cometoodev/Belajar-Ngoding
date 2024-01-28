@@ -15,16 +15,16 @@ RULES
 
 function angkaTerbesar(sentence) {
   //code here
-  if (sentence.length == 0) {
+  if(sentence.length == 0) {
     return -1;
   }
 
   let max = angkaTerbesar(sentence.slice(1));
-  if (sentence[0] > max) {
+  if(sentence[0] > max) {
     max = sentence[0];
   }
-
-  return max;
+  
+  return max
 }
 
 // TEST CASES
