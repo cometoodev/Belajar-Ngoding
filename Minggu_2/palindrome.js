@@ -16,8 +16,8 @@ function palindrome(kata) {
 }
 
 // TEST CASES
-console.log(palindrome("katak")); // true
-console.log(palindrome("blanket")); // false
-console.log(palindrome("civic")); // true
-console.log(palindrome("kasur rusak")); // true
+console.log(palindrome("radar")); // true
+console.log(palindrome("gorila")); // false
+console.log(palindrome("mom")); // true
+console.log(palindrome("rotator")); // true
 console.log(palindrome("mister")); // false
